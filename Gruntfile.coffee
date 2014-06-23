@@ -8,7 +8,7 @@ module.exports = (grunt) ->
             "src/**/*.js"
           ]
         options:
-          transform: ["brfs", "uglifyify"]
+          transform: ["partialify", "uglifyify"]
 
   grunt.registerTask "build", ["browserify"]
   grunt.registerTask "default", ["build"]

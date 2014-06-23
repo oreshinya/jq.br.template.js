@@ -1,7 +1,5 @@
-var fs = require("fs");
-
 var views = {
-  "sample": fs.readFileSync(__dirname + "/views/sample.html", "utf8") 
+  "sample": require("./views/sample.html")
 };
 
 module.exports = views;

@@ -9,10 +9,10 @@
   "author": "shinya takahashi <s.takahashi313@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "brfs": "^1.1.1",
     "browserify": "^4.1.6",
     "grunt": "^0.4.5",
     "grunt-browserify": "^2.1.0",
+    "partialify": "^3.1.1",
     "uglifyify": "^2.4.0"
   }
 }
